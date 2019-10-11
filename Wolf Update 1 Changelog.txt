@@ -1,0 +1,28 @@
+Wolf Update 1 Changelog:
+
+Timeline Changes
+	- Sustains are now visible. 
+	- "Hit marker" is now yellow for easier visiblity.
+
+UI Changes
+	- Playback speed % is now shown.
+	- Target hit-tick can now be muted.
+	- Fixed bug where clicking on the UI would cause accidental targets to be placed.
+	- Slight color changes.
+	- Centered input text.
+	- Desc editor. (see below)
+
+Desc Editor
+	- New popup menu for editing .desc values.
+	- You must export to save any .desc changes.
+	
+Cue/Target Creation
+	- Default offset is now set to 0.
+	- Default tick length is now 120. (for aim stats fix)
+	- Velocity value changes based on target type (for hit sound fix)
+	
+New Time/Tick Feature
+	- Song time is on the left.
+	- Current tick location is on the right.
+	- Tick location updates in 1/4 note increments for now.
+	- Known bug that the first downbeat sometimes won't correctly update the tick location. So be aware of that.
